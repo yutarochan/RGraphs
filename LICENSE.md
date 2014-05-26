@@ -1,5 +1,5 @@
-                   GNU LESSER GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
+<h1>GNU LESSER GENERAL PUBLIC LICENSE</h1>
+<h3>Version 3, 29 June 2007</h3>
 
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
