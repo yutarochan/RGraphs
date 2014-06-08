@@ -1,4 +1,4 @@
-package com.tigytech.GraphNet.Core;
+package com.tigytech.graphnet.core;
 
 public class Vertex<V> {
 

@@ -1,6 +1,6 @@
-package com.tigytech.GraphNet.Core;
-import java.util.UUID;
+package com.tigytech.graphnet.core;
 
+import java.util.UUID;
 
 public interface Entity {
 	
