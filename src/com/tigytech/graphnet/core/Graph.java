@@ -8,7 +8,7 @@ public interface Graph<V extends Entity, E> extends Serializable, Entity {
 	
 	public E getEdge(Entity source, Entity target);
 	
-	public Iterable<V> getVertecies();
+	public Iterable<V> getEntities();
 	
 	public boolean contains(Entity source, Entity target);
 	
