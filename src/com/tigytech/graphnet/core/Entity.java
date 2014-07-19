@@ -4,6 +4,8 @@ public interface Entity {
 	
 	public abstract int getID();
 	
+	public abstract String toString();
+	
 	public abstract Entity clone();
 	
 	public abstract int hashCode();

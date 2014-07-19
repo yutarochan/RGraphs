@@ -28,4 +28,28 @@ public interface Graph<V extends Entity, E> extends Serializable, Entity {
 	
 	public double getEdgeWeight(E e);
 	
+	/**
+	 * TODO: Separate mutability and immutability features.
+	 */
+	
+	public E addEdge(V head, V tail);
+	
+	public E addEdge(V head, V tail, E e);
+	
+	public boolean addEntity(V v);
+	
+	public boolean removeAllEdges(Iterable<? extends E> e);
+
+	public boolean removeAllEdges(Entity source, Entity target);
+	
+	public boolean removeAllEntities(Iterable<? extends Entity> e);
+	
+	public boolean removeEdge(Entity source, Entity target);
+	
+	public boolean removeEdge(E e);
+	
+	public boolean removeEntity(Entity e);
+	
+	/* */
+	
 }

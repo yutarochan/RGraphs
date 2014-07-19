@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import com.tigytech.graphnet.util.Assertions;
 
-public final class EntityPair<V> implements Serializable {
+public final class EntityPair<V extends Entity> implements Serializable {
 
 	private static final long serialVersionUID = 4189500958967808328L;
 	
